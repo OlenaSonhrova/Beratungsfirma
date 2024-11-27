@@ -1,0 +1,81 @@
+:root {
+	--color-black: #000000;
+	--color-blue: #594FFB;
+	--color-white: #FFFFFF;
+	--color-text-white: #FFFFFF;
+	--color-text-black: #000000;
+	--font-Lato: 'Lato', sans-serif;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+	--font-size-base: 1.375rem;
+	--font-size-small: 1.125rem;
+	--font-size-large: 3.125rem;
+}
+
+body {
+	background-color: var(--color-black);
+	color: var(--color-text-white);
+	font-family: var(--font-Lato);
+	font-weight: var(--font-weight-regular);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 1700px;
+	margin: 0 auto;    
+	padding: 0 50px;
+}
+
+.header {
+	background-color: var(--color-black);
+	color: var(--color-white);
+	padding: 7px;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: var(--font-size-large);
+}
+
+.hero {
+	width: 100%;
+	
+}
+
+.hero__image {
+	width: 100%;
+	height: 25vw;
+	object-fit: cover;
+}
+
+.articles {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.article {
+	background-color: var(--color-white);
+	color: var(--color-text-black);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	text-align: left;
+}
+
+.article h2 {
+	margin: 0 0 10px 0;
+	font-size: var(--font-size-base);
+	color: var(--color-blue);
+}
+
+.article p {
+	margin: 0;
+	font-size: var(--font-size-small);
+	line-height: 1.5;
+}

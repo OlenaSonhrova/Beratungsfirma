@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Beratungsfirma in der Schweiz">
+	<title>Beratungsfirma</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	<link rel="shortcut icon" href="./image/logo_small.svg">
+</head>
+
+<body>
+	<!-- Container -->
+	<div class="container">
+
+		<!-- Header -->
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="./image/logo.svg" alt="logo" class="header__logo--image">
+				</a>
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li class="header__menu-item"><a href="../blog_page/blog.html" class="header__menu-link">Blog</a></li>
+						<li class="header__menu-item"><a href="#contacts" class="header__menu-link">Kontakt</a></li>
+						<li class="header__menu-item"><a href="#faq" class="header__menu-link">FAQ</a></li>
+						<li class="header__menu-item"><a href="#about" class="header__menu-link">Über uns</a></li>
+						<li class="header__menu-item"><a href="#search" class="header__menu-link">Suche</a></li>
+					</ul>
+				</nav>
+				<div class="burger__menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</header>
+
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero__container">
+				<img src="./image/baner2.png" alt="Baner" class="hero__image">
+				<h1 class="hero__title">Willkommen bei unseren Beratungsdiensten</h1>
+			</div>
+		</section>
+
+		<!-- Benefits Section -->
+		<section class="benefits">
+			<div class="benefits__container">
+				<h2 class="benefits__title title">Unsere Vorteile</h2>
+				<ul class="benefits__list">
+					<li class="benefits__item">Dienstleistungen von höchster Qualität</li>
+					<li class="benefits__item">Erfahrene Berater</li>
+					<li class="benefits__item">Dienstleistungen von höchster Qualität</li>
+					<li class="benefits__item">Individuell angepasste Lösungen</li>
+					<li class="benefits__item">Erfahrene Berater</li>
+					<li class="benefits__item">Individuell angepasste Lösungen</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Contact Form Section -->
+		<section id="contacts" class="contacts">
+			<div class="contacts__container">
+				<h2 class="contacts__title title">Kontaktieren Sie uns</h2>
+				<form action="../danke_page/danke.html" method="get" class="contacts__form">
+					<div class="contacts__field">
+						<label for="name" class="contacts__label">Name</label>
+						<input type="text" id="name" name="name" class="contacts__input" required>
+					</div>
+					<div class="contacts__field">
+						<label for="email" class="contacts__label">E-Mail</label>
+						<input type="email" id="email" name="email" class="contacts__input" required>
+					</div>
+					<div class="contacts__field">
+						<label for="phone" class="contacts__label">Telefon</label>
+						<input type="tel" id="phone" name="phone" class="contacts__input" required>
+					</div>
+					<button type="submit" class="contacts__button">Absenden</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- Map Section -->
+		<section class="map">
+			<div class="map__container">
+				<h2 class="map__title title">Unser Standort</h2>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35941.86536486961!2d9.518787522915112!3d47.1419568394462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b315d12e5a28d%3A0x9f1a2636b130f61b!2z0JzRg9C30LXQuSDQuNGB0LrRg9GB0YHRgtCyINCb0LjRhdGC0LXQvdGI0YLQtdC50L3QsA!5e0!3m2!1sru!2sua!4v1732701587721!5m2!1sru!2sua"
+					width="70%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer__container">
+				<ul class="footer__links">
+					<li class="footer__link-item"><a href="#" class="footer__logo">
+							<img src="./image/logo.svg" alt="logo" class="footer__logo--image">
+						</a></li>
+					<li class="footer__link-item"><a href="#" class="footer__link">Datenschutz</a></li>
+					<li class="footer__link-item"><a href="#" class="footer__link">Nutzungsbedingungen</a></li>
+					<li class="footer__link-item"><a href="#" class="footer__link">Kontakt: + 45 0141 73539503</a></li>
+				</ul>
+				<div class="footer__privace">
+					<p class="footer__text">© 2024 Alle Rechte vorbehalten.</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Cookie Pop-up -->
+		<div class="cookie-popup">
+			<p class="cookie-popup__text">Wir verwenden Cookies, um Ihr Erlebnis zu verbessern.
+				<a href="#" class="cookie-popup__link">Mehr erfahren</a>
+			</p>
+			<button class="cookie-popup__button">Akzeptieren</button>
+		</div>
+
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
